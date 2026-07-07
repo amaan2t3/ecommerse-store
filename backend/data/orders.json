@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1783424224915",
+    "user": {
+      "id": "af094378-dfdf-42c8-a93e-1f5a9f9ce1d8",
+      "name": "Admin",
+      "email": "aman@gmail.com"
+    },
+    "orderItems": [
+      {
+        "product": "55e3da96-9a7b-48a5-b626-da077869b0ca",
+        "name": "T-Shirt",
+        "image": "http://localhost:5000/uploads/image-1783420726089.jpg",
+        "price": 1000,
+        "qty": 1,
+        "countInStock": 20
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aman ullah",
+      "address": "Khorokha Balghar, Tehsil Daghoni Balghar, District Ghanche, Gilgit-Baltistan.",
+      "city": "Rawalpindi",
+      "postalCode": "17160",
+      "country": "Pakistan"
+    },
+    "paymentMethod": "Credit Card (Stripe)",
+    "itemsPrice": 1000,
+    "taxPrice": 150,
+    "shippingPrice": 0,
+    "totalPrice": "1150.00",
+    "isPaid": true,
+    "paidAt": "2026-07-07T11:37:04.915Z",
+    "isDelivered": false,
+    "createdAt": "2026-07-07T11:37:04.915Z"
+  },
+  {
+    "id": "1783424412977",
+    "user": {
+      "id": "80d137ae-1bdc-4aca-af5e-241099accefb",
+      "name": "Admin",
+      "email": "admin@gmail.com"
+    },
+    "orderItems": [
+      {
+        "product": "55e3da96-9a7b-48a5-b626-da077869b0ca",
+        "name": "T-Shirt",
+        "image": "http://localhost:5000/uploads/image-1783420726089.jpg",
+        "price": 1000,
+        "qty": 1,
+        "countInStock": 20
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "admin",
+      "address": "rawalpindi",
+      "city": "Rawalpindi",
+      "postalCode": "17160",
+      "country": "Pakistan"
+    },
+    "paymentMethod": "Credit Card (Stripe)",
+    "itemsPrice": 1000,
+    "taxPrice": 150,
+    "shippingPrice": 0,
+    "totalPrice": "1150.00",
+    "isPaid": true,
+    "paidAt": "2026-07-07T11:40:12.977Z",
+    "isDelivered": false,
+    "createdAt": "2026-07-07T11:40:12.977Z"
+  },
+  {
+    "id": "1783425093147",
+    "user": {
+      "id": "7aa4cd7c-b646-402c-9746-3e31a66b681c",
+      "name": "Demo",
+      "email": "demo@gmail.com"
+    },
+    "orderItems": [
+      {
+        "product": "55e3da96-9a7b-48a5-b626-da077869b0ca",
+        "name": "T-Shirt",
+        "image": "http://localhost:5000/uploads/image-1783420726089.jpg",
+        "price": 1000,
+        "qty": 1,
+        "countInStock": 20
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "admin",
+      "address": "rawalpindi",
+      "city": "Rawalpindi",
+      "postalCode": "17160",
+      "country": "Pakistan"
+    },
+    "paymentMethod": "Credit Card (Stripe)",
+    "itemsPrice": 1000,
+    "taxPrice": 150,
+    "shippingPrice": 0,
+    "totalPrice": "1150.00",
+    "isPaid": true,
+    "paidAt": "2026-07-07T11:51:33.147Z",
+    "isDelivered": false,
+    "createdAt": "2026-07-07T11:51:33.147Z"
+  }
+]
