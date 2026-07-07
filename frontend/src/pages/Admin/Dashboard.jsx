@@ -85,9 +85,8 @@ const Dashboard = () => {
           'Content-Type': 'multipart/form-data',
         },
       });
-      // the backend returns the local path e.g., /uploads/image-1234.jpg
-      // For local dev, we need to prepend localhost:5000 so the frontend can display it
-      setNewProduct({...newProduct, image: `http://localhost:5000${data}`});
+      // The backend now returns the full Supabase Storage public URL
+      setNewProduct({...newProduct, image: data});
       setUploading(false);
       toast.success('Image uploaded successfully');
     } catch (error) {
